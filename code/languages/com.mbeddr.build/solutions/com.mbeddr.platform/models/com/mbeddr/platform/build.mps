@@ -955,9 +955,6 @@
       <node concept="m$_yC" id="1g7oDhKa4YK" role="m$_yJ">
         <ref role="m$_y1" to="90a9:7szUFELHeHf" resolve="de.itemis.mps.editor.widgets" />
       </node>
-      <node concept="m$_yC" id="6OG8EiBFhcY" role="m$_yJ">
-        <ref role="m$_y1" node="6OG8EiBESLP" resolve="com.mbeddr.mpsutil.actionsfilter" />
-      </node>
       <node concept="3_J27D" id="1g7oDhK9QTT" role="m_cZH">
         <node concept="3Mxwew" id="1g7oDhK9QTU" role="3MwsjC">
           <property role="3MwjfP" value="com.mbeddr.mpsutil.actionsfilter.lang" />
@@ -971,37 +968,6 @@
         <node concept="3Mxwew" id="1g7oDhK9QTX" role="3MwsjC">
           <property role="3MwjfP" value="Action Filters from mbeddr.mpsutil" />
         </node>
-      </node>
-    </node>
-    <node concept="m$_wf" id="6OG8EiBESLP" role="3989C9">
-      <property role="m$_wk" value="com.mbeddr.mpsutil.actionsfilter" />
-      <node concept="m$_yC" id="6OG8EiBFaQN" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbKLe8" resolve="jetbrains.mps.core" />
-      </node>
-      <node concept="m$_yC" id="6OG8EiBFaQO" role="m$_yJ">
-        <ref role="m$_y1" to="ffeo:4k71ibbLe59" resolve="com.intellij.modules.mps" />
-      </node>
-      <node concept="3_J27D" id="6OG8EiBESLR" role="m$_yQ">
-        <node concept="3Mxwew" id="6OG8EiBF2fT" role="3MwsjC">
-          <property role="3MwjfP" value="com.mbeddr.mpsutil.actionsfilter" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6OG8EiBESLT" role="m_cZH">
-        <node concept="3Mxwew" id="6OG8EiBF2fY" role="3MwsjC">
-          <property role="3MwjfP" value="com.mbeddr.mpsutil.actionsfilter" />
-        </node>
-      </node>
-      <node concept="3_J27D" id="6OG8EiBESLV" role="m$_w8">
-        <node concept="3Mxwey" id="6OG8EiBF4DE" role="3MwsjC">
-          <ref role="3Mxwex" node="2HHioL2Nii3" resolve="mbeddr.version" />
-        </node>
-      </node>
-      <node concept="2iUeEo" id="6OG8EiBF63_" role="2iVFfd">
-        <property role="2iUeEt" value="mbeddr" />
-        <property role="2iUeEu" value="http://mbeddr.com/" />
-      </node>
-      <node concept="m$_yB" id="6OG8EiBF9_A" role="m$_yh">
-        <ref role="m$_yA" node="5FJiYrlOTtx" resolve="com.mbeddr.mpsutil.actionsfilter.runtime" />
       </node>
     </node>
     <node concept="m$_wf" id="$bJ0jguQdg" role="3989C9">
@@ -13265,9 +13231,6 @@
           <ref role="1E0d5P" to="ffeo:2eDSGe9d1q1" resolve="MPS.Workbench" />
         </node>
       </node>
-    </node>
-    <node concept="2G$12M" id="6OG8EiBE_V3" role="3989C9">
-      <property role="TrG5h" value="group.actionsfilter" />
       <node concept="1E1JtA" id="5FJiYrlOTtx" role="2G$12L">
         <property role="BnDLt" value="true" />
         <property role="TrG5h" value="com.mbeddr.mpsutil.actionsfilter.runtime" />
