@@ -145,6 +145,7 @@
       </concept>
       <concept id="6592112598314498932" name="jetbrains.mps.build.mps.structure.BuildMps_IdeaPlugin" flags="ng" index="m$_wf">
         <property id="6592112598314498927" name="id" index="m$_wk" />
+        <child id="1359186315025500371" name="xml" index="20twgj" />
         <child id="7832771629084912518" name="vendor" index="2iVFfd" />
         <child id="6592112598314498931" name="version" index="m$_w8" />
         <child id="6592112598314499050" name="content" index="m$_yh" />
@@ -967,6 +968,12 @@
       <node concept="3_J27D" id="1g7oDhK9QTW" role="3s6cr7">
         <node concept="3Mxwew" id="1g7oDhK9QTX" role="3MwsjC">
           <property role="3MwjfP" value="Action Filters from mbeddr.mpsutil" />
+        </node>
+      </node>
+      <node concept="2pNNFK" id="6OG8EiBNSTm" role="20twgj">
+        <property role="2pNNFO" value="depends" />
+        <node concept="3o6iSG" id="6OG8EiBNWqr" role="3o6s8t">
+          <property role="3o6i5n" value="com.mbeddr.mpsutil.actionsfilter" />
         </node>
       </node>
     </node>
