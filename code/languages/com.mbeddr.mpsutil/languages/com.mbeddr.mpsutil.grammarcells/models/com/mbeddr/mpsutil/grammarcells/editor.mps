@@ -2396,5 +2396,24 @@
       <ref role="4PJHt" to="teg0:3pFNVizDvwD" resolve="SplittableCell" />
     </node>
   </node>
+  <node concept="24kQdi" id="6H8XEgMf1b4">
+    <property role="3GE5qa" value="cells" />
+    <ref role="1XX52x" to="teg0:6H8XEgMf0Qa" resolve="NodeEndMarkerCell" />
+    <node concept="3EZMnI" id="6H8XEgMf1bi" role="2wV5jI">
+      <node concept="3F0ifn" id="6H8XEgMf1b_" role="3EZMnx">
+        <property role="3F0ifm" value="§(" />
+      </node>
+      <node concept="3F1sOY" id="6H8XEgMf1cp" role="3EZMnx">
+        <ref role="1NtTu8" to="teg0:6H8XEgMf1cj" resolve="wrapped" />
+      </node>
+      <node concept="3F0ifn" id="6H8XEgMf1bR" role="3EZMnx">
+        <property role="3F0ifm" value=")§" />
+      </node>
+      <node concept="l2Vlx" id="6H8XEgMf1bl" role="2iSdaV" />
+    </node>
+    <node concept="PMmxH" id="6H8XEgMf1bc" role="6VMZX">
+      <ref role="PMmxG" to="tpc5:hF4ssnw" resolve="_CellModel_Common" />
+    </node>
+  </node>
 </model>
 

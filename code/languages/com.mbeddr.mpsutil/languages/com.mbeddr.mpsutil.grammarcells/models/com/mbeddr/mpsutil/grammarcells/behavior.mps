@@ -3473,5 +3473,32 @@
       <node concept="3clFbS" id="2c4RKQNz44z" role="2VODD2" />
     </node>
   </node>
+  <node concept="13h7C7" id="6H8XEgMoWRC">
+    <property role="3GE5qa" value="cells" />
+    <ref role="13h7C2" to="teg0:6H8XEgMf0Qa" resolve="NodeEndMarkerCell" />
+    <node concept="13hLZK" id="6H8XEgMoWRD" role="13h7CW">
+      <node concept="3clFbS" id="6H8XEgMoWRE" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6H8XEgMoWRN" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0it" value="false" />
+      <property role="TrG5h" value="getWrappedCell" />
+      <ref role="13i0hy" node="3O7ZvCZLQjf" resolve="getWrappedCell" />
+      <node concept="3Tm1VV" id="6H8XEgMoWRO" role="1B3o_S" />
+      <node concept="3clFbS" id="6H8XEgMoWRR" role="3clF47">
+        <node concept="3clFbF" id="6H8XEgMoWSm" role="3cqZAp">
+          <node concept="2OqwBi" id="6H8XEgMoX4d" role="3clFbG">
+            <node concept="13iPFW" id="6H8XEgMoWSl" role="2Oq$k0" />
+            <node concept="3TrEf2" id="6H8XEgMoXw2" role="2OqNvi">
+              <ref role="3Tt5mk" to="teg0:6H8XEgMf1cj" resolve="wrapped" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6H8XEgMoWRS" role="3clF45">
+        <ref role="ehGHo" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
+      </node>
+    </node>
+  </node>
 </model>
 
