@@ -651,7 +651,7 @@
         <property role="3F0ifm" value="{" />
         <ref role="1k5W1q" to="r4b4:2CEi94dgZq3" resolve="Braces" />
         <node concept="2SqB2G" id="6H8XEgN8CBb" role="2SqHTX">
-          <property role="TrG5h" value="closingParen" />
+          <property role="TrG5h" value="openingParen" />
         </node>
       </node>
       <node concept="3F0ifn" id="41KMvfcgq4j" role="3EZMnx">

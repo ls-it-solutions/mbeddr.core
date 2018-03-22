@@ -302,6 +302,10 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
+      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
+        <property id="779128492853934523" name="cellId" index="1K8rM7" />
+        <property id="779128492853699361" name="side" index="1Kfyot" />
+      </concept>
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
@@ -2157,12 +2161,12 @@
     <node concept="3XIRFW" id="6rhOS_xtjvs" role="LiRBU">
       <node concept="c0U19" id="6rhOS_xtkQD" role="3XIRFZ">
         <node concept="3XIRFW" id="6rhOS_xtkQE" role="c0U17">
-          <node concept="LIFWc" id="6H8XEgNjLzL" role="lGtFl">
+          <node concept="LIFWc" id="6H8XEgNtyz6" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="closingParen_1" />
+            <property role="LIFWd" value="closingParen" />
           </node>
         </node>
         <node concept="3TlMhK" id="6rhOS_xtkRa" role="c0U16" />
@@ -2174,7 +2178,12 @@
     </node>
     <node concept="3XIRFW" id="6rhOS_xtjvx" role="LiZbd">
       <node concept="c0U19" id="6rhOS_xtkSG" role="3XIRFZ">
-        <node concept="3XIRFW" id="6rhOS_xtkSH" role="c0U17" />
+        <node concept="3XIRFW" id="6rhOS_xtkSH" role="c0U17">
+          <node concept="1KehLL" id="6H8XEgNtAlg" role="lGtFl">
+            <property role="1K8rM7" value="closingParen" />
+            <property role="1Kfyot" value="right" />
+          </node>
+        </node>
         <node concept="3TlMhK" id="6rhOS_xtkTd" role="c0U16" />
         <node concept="gg_gk" id="6rhOS_xtkTy" role="gg_kh">
           <node concept="3XIRFW" id="6rhOS_xtkTz" role="gg_gl" />
