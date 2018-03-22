@@ -193,7 +193,6 @@
       </concept>
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
-        <child id="363746191845183793" name="loopLabel" index="3Wmhwa" />
       </concept>
       <concept id="1197027756228" name="jetbrains.mps.baseLanguage.structure.DotExpression" flags="nn" index="2OqwBi">
         <child id="1197027771414" name="operand" index="2Oq$k0" />
@@ -327,9 +326,7 @@
       <concept id="7024111702304501416" name="jetbrains.mps.baseLanguage.structure.OrAssignmentExpression" flags="nn" index="3vZ8r8" />
       <concept id="7024111702304501418" name="jetbrains.mps.baseLanguage.structure.AndAssignmentExpression" flags="nn" index="3vZ8ra" />
       <concept id="1073239437375" name="jetbrains.mps.baseLanguage.structure.NotEqualsExpression" flags="nn" index="3y3z36" />
-      <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4">
-        <child id="9056323058805176516" name="loopLabelReference" index="2mV7Oi" />
-      </concept>
+      <concept id="1081855346303" name="jetbrains.mps.baseLanguage.structure.BreakStatement" flags="nn" index="3zACq4" />
       <concept id="1178549954367" name="jetbrains.mps.baseLanguage.structure.IVisible" flags="ng" index="1B3ioH">
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
@@ -365,10 +362,6 @@
         <reference id="1116615189566" name="classifier" index="3VsUkX" />
       </concept>
       <concept id="1080120340718" name="jetbrains.mps.baseLanguage.structure.AndExpression" flags="nn" index="1Wc70l" />
-      <concept id="363746191845183785" name="jetbrains.mps.baseLanguage.structure.LoopLabelReference" flags="ng" index="3Wmhwi">
-        <reference id="363746191845183786" name="loopLabel" index="3Wmhwh" />
-      </concept>
-      <concept id="363746191845175146" name="jetbrains.mps.baseLanguage.structure.LoopLabel" flags="ng" index="3Wmmph" />
       <concept id="1170345865475" name="jetbrains.mps.baseLanguage.structure.AnonymousClass" flags="ig" index="1Y3b0j">
         <reference id="1170346070688" name="classifier" index="1Y3XeK" />
       </concept>
@@ -20396,6 +20389,15 @@
                               <property role="TrG5h" value="sourceNode_" />
                             </node>
                             <node concept="3clFbS" id="6H8XEgM_VrS" role="2LFqv$">
+                              <node concept="3cpWs8" id="68A7emvJcVK" role="3cqZAp">
+                                <node concept="3cpWsn" id="68A7emvJcVN" role="3cpWs9">
+                                  <property role="TrG5h" value="sourceNodeProducedActions" />
+                                  <node concept="10P_77" id="68A7emvJcVI" role="1tU5fm" />
+                                  <node concept="3clFbT" id="68A7emvJgM3" role="33vP2m">
+                                    <property role="3clFbU" value="false" />
+                                  </node>
+                                </node>
+                              </node>
                               <node concept="3cpWs8" id="6H8XEgMATDT" role="3cqZAp">
                                 <node concept="3cpWsn" id="6H8XEgMATDU" role="3cpWs9">
                                   <property role="TrG5h" value="sourceNode" />
@@ -21658,9 +21660,14 @@
                                                   </node>
                                                 </node>
                                               </node>
-                                              <node concept="3zACq4" id="6H8XEgMBqSp" role="3cqZAp">
-                                                <node concept="3Wmhwi" id="6H8XEgMBtiJ" role="2mV7Oi">
-                                                  <ref role="3Wmhwh" node="6H8XEgMBlqO" resolve="sourceNodeLoop" />
+                                              <node concept="3clFbF" id="68A7emvJw6p" role="3cqZAp">
+                                                <node concept="37vLTI" id="68A7emvJyZ4" role="3clFbG">
+                                                  <node concept="3clFbT" id="68A7emvJz4g" role="37vLTx">
+                                                    <property role="3clFbU" value="true" />
+                                                  </node>
+                                                  <node concept="37vLTw" id="68A7emvJw6m" role="37vLTJ">
+                                                    <ref role="3cqZAo" node="68A7emvJcVN" resolve="sourceNodeProducedActions" />
+                                                  </node>
                                                 </node>
                                               </node>
                                             </node>
@@ -21741,6 +21748,14 @@
                                   </node>
                                 </node>
                               </node>
+                              <node concept="3clFbJ" id="68A7emvJp2I" role="3cqZAp">
+                                <node concept="3clFbS" id="68A7emvJp2K" role="3clFbx">
+                                  <node concept="3zACq4" id="68A7emvJt4e" role="3cqZAp" />
+                                </node>
+                                <node concept="37vLTw" id="68A7emvJslR" role="3clFbw">
+                                  <ref role="3cqZAo" node="68A7emvJcVN" resolve="sourceNodeProducedActions" />
+                                </node>
+                              </node>
                             </node>
                             <node concept="2YIFZM" id="6H8XEgMBi$8" role="2GsD0m">
                               <ref role="37wK5l" to="czm:6H8XEgMyaq2" resolve="findEndingNodes" />
@@ -21798,9 +21813,6 @@
                                 </node>
                               </node>
                               <node concept="10Nm6u" id="6H8XEgMBi$u" role="37wK5m" />
-                            </node>
-                            <node concept="3Wmmph" id="6H8XEgMBlqO" role="3Wmhwa">
-                              <property role="TrG5h" value="sourceNodeLoop" />
                             </node>
                           </node>
                         </node>
