@@ -302,10 +302,6 @@
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
-      <concept id="779128492853369165" name="jetbrains.mps.lang.core.structure.SideTransformInfo" flags="ng" index="1KehLL">
-        <property id="779128492853934523" name="cellId" index="1K8rM7" />
-        <property id="779128492853699361" name="side" index="1Kfyot" />
-      </concept>
     </language>
     <language id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions">
       <concept id="8463282783691618461" name="com.mbeddr.core.expressions.structure.UnsignedInt8tType" flags="ng" index="26Vqp4" />
@@ -659,7 +655,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="1" />
           <property role="p6zMs" value="1" />
-          <property role="LIFWd" value="Constant_uefsp_a0a3a" />
+          <property role="LIFWd" value="operator" />
         </node>
       </node>
     </node>
@@ -1444,7 +1440,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="1" />
-          <property role="LIFWd" value="Constant_uefsp_a0a3a" />
+          <property role="LIFWd" value="operator" />
         </node>
       </node>
     </node>
@@ -1892,7 +1888,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="Constant_u338ov_d0" />
+            <property role="LIFWd" value="closingParen" />
           </node>
         </node>
         <node concept="3TlMhK" id="7KznU_4cEjy" role="c0U16" />
@@ -1924,7 +1920,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="Constant_u338ov_d0" />
+            <property role="LIFWd" value="closingParen" />
           </node>
         </node>
         <node concept="3TlMhK" id="7KznU_4cL$t" role="c0U16" />
@@ -1961,7 +1957,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_qxz8gh_a0" />
+            <property role="LIFWd" value="elseIf" />
           </node>
         </node>
       </node>
@@ -1997,7 +1993,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="Constant_u338ov_d0" />
+            <property role="LIFWd" value="closingParen" />
           </node>
         </node>
         <node concept="3TlMhK" id="7KznU_4dfIb" role="c0U16" />
@@ -2041,7 +2037,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="1" />
               <property role="p6zMs" value="1" />
-              <property role="LIFWd" value="Constant_u338ov_d0" />
+              <property role="LIFWd" value="closingParen" />
             </node>
           </node>
           <node concept="3TlMhK" id="7KznU_4dgLt" role="gg_gt" />
@@ -2082,7 +2078,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="1" />
               <property role="p6zMs" value="1" />
-              <property role="LIFWd" value="Constant_u338ov_d0" />
+              <property role="LIFWd" value="closingParen" />
             </node>
           </node>
           <node concept="3TlMhK" id="7KznU_4dlGq" role="gg_gt" />
@@ -2129,7 +2125,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="1" />
               <property role="p6zMs" value="1" />
-              <property role="LIFWd" value="Constant_u338ov_d0" />
+              <property role="LIFWd" value="closingParen" />
             </node>
           </node>
           <node concept="3TlMhK" id="7KznU_4eJLM" role="gg_gt" />
@@ -2161,12 +2157,12 @@
     <node concept="3XIRFW" id="6rhOS_xtjvs" role="LiRBU">
       <node concept="c0U19" id="6rhOS_xtkQD" role="3XIRFZ">
         <node concept="3XIRFW" id="6rhOS_xtkQE" role="c0U17">
-          <node concept="LIFWc" id="6rhOS_xtkUt" role="lGtFl">
+          <node concept="LIFWc" id="6H8XEgNjLzL" role="lGtFl">
             <property role="ZRATv" value="true" />
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="1" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="Constant_u338ov_d0" />
+            <property role="LIFWd" value="closingParen_1" />
           </node>
         </node>
         <node concept="3TlMhK" id="6rhOS_xtkRa" role="c0U16" />
@@ -2178,12 +2174,7 @@
     </node>
     <node concept="3XIRFW" id="6rhOS_xtjvx" role="LiZbd">
       <node concept="c0U19" id="6rhOS_xtkSG" role="3XIRFZ">
-        <node concept="3XIRFW" id="6rhOS_xtkSH" role="c0U17">
-          <node concept="1KehLL" id="7_zN_5SXLeP" role="lGtFl">
-            <property role="1K8rM7" value="Constant_u338ov_d0" />
-            <property role="1Kfyot" value="right" />
-          </node>
-        </node>
+        <node concept="3XIRFW" id="6rhOS_xtkSH" role="c0U17" />
         <node concept="3TlMhK" id="6rhOS_xtkTd" role="c0U16" />
         <node concept="gg_gk" id="6rhOS_xtkTy" role="gg_kh">
           <node concept="3XIRFW" id="6rhOS_xtkTz" role="gg_gl" />
@@ -2218,7 +2209,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="1" />
               <property role="p6zMs" value="1" />
-              <property role="LIFWd" value="Constant_u338ov_d0" />
+              <property role="LIFWd" value="closingParen" />
             </node>
           </node>
         </node>
@@ -2260,7 +2251,7 @@
               <property role="OXtK3" value="true" />
               <property role="p6zMq" value="1" />
               <property role="p6zMs" value="1" />
-              <property role="LIFWd" value="Constant_u338ov_d0" />
+              <property role="LIFWd" value="closingParen" />
             </node>
           </node>
           <node concept="3TlM44" id="6rhOS_xFIV3" role="gg_gt">
@@ -2356,7 +2347,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_qxz8gh_a0" />
+            <property role="LIFWd" value="elseIf" />
           </node>
         </node>
       </node>
@@ -2413,7 +2404,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="4" />
             <property role="p6zMs" value="4" />
-            <property role="LIFWd" value="Constant_z08t9c_a0" />
+            <property role="LIFWd" value="else" />
           </node>
         </node>
       </node>
@@ -2554,7 +2545,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_czjnxc_a6a" />
+          <property role="LIFWd" value="emptyMembers" />
         </node>
       </node>
     </node>
@@ -2591,7 +2582,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_czjnxc_a6a" />
+          <property role="LIFWd" value="emptyMembers" />
         </node>
       </node>
     </node>
@@ -2900,7 +2891,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="1" />
-            <property role="LIFWd" value="Constant_uefsp_a0a3a" />
+            <property role="LIFWd" value="operator" />
           </node>
         </node>
         <node concept="3TlMh9" id="mEdliwsHkK" role="3TlMhJ">
@@ -3251,16 +3242,16 @@
         <node concept="2BOciq" id="6B579NGqxhM" role="3XIe9u">
           <node concept="3TlMh9" id="6B579NGqxhR" role="3TlMhJ">
             <property role="2hmy$m" value="2" />
+            <node concept="LIFWc" id="6H8XEgNjGfN" role="lGtFl">
+              <property role="ZRATv" value="true" />
+              <property role="OXtK3" value="true" />
+              <property role="p6zMq" value="1" />
+              <property role="p6zMs" value="1" />
+              <property role="LIFWd" value="property_value" />
+            </node>
           </node>
           <node concept="3TlMh9" id="6B579NGqxgV" role="3TlMhI">
             <property role="2hmy$m" value="1" />
-          </node>
-          <node concept="LIFWc" id="6B579NGqygm" role="lGtFl">
-            <property role="LIFWa" value="0" />
-            <property role="OXtK3" value="true" />
-            <property role="p6zMq" value="0" />
-            <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Constant_uefsp_a0a3a" />
           </node>
         </node>
       </node>
@@ -3273,8 +3264,13 @@
           <property role="2c7vTL" value="false" />
         </node>
         <node concept="2BOciq" id="6B579NGqxU3" role="3XIe9u">
-          <node concept="3TlMh9" id="6B579NGqxU4" role="3TlMhJ">
-            <property role="2hmy$m" value="2" />
+          <node concept="2BOcij" id="6H8XEgNjFIU" role="3TlMhJ">
+            <node concept="3TlMh9" id="6H8XEgNjFIV" role="3TlMhI">
+              <property role="2hmy$m" value="2" />
+            </node>
+            <node concept="3TlMh9" id="6H8XEgNjFIW" role="3TlMhJ">
+              <property role="2hmy$m" value="3" />
+            </node>
           </node>
           <node concept="3TlMh9" id="6B579NGqxU5" role="3TlMhI">
             <property role="2hmy$m" value="1" />
@@ -3303,7 +3299,7 @@
             <property role="OXtK3" value="true" />
             <property role="p6zMq" value="0" />
             <property role="p6zMs" value="0" />
-            <property role="LIFWd" value="Custom_1ltshm_a0" />
+            <property role="LIFWd" value="error" />
           </node>
         </node>
       </node>
@@ -3488,7 +3484,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_7h2wce_a" />
+          <property role="LIFWd" value="emptyConstant" />
         </node>
       </node>
     </node>
@@ -3511,7 +3507,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_7h2wce_a" />
+          <property role="LIFWd" value="emptyConstant" />
         </node>
       </node>
     </node>
@@ -3543,7 +3539,7 @@
           <property role="OXtK3" value="true" />
           <property role="p6zMq" value="0" />
           <property role="p6zMs" value="0" />
-          <property role="LIFWd" value="Constant_7h2wce_a" />
+          <property role="LIFWd" value="emptyConstant" />
         </node>
       </node>
     </node>

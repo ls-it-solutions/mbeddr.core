@@ -869,6 +869,9 @@
           <node concept="11LMrY" id="5sJgLFR$yGv" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+          <node concept="2SqB2G" id="6H8XEgNjQZk" role="2SqHTX">
+            <property role="TrG5h" value="open" />
+          </node>
         </node>
         <node concept="3F1sOY" id="5sJgLFR$y$f" role="3EZMnx">
           <ref role="1NtTu8" to="yq40:5sJgLFR$y$3" resolve="index" />
@@ -878,6 +881,9 @@
           <ref role="1k5W1q" to="r4b4:2CEi94dhjGU" resolve="Brackets" />
           <node concept="11L4FC" id="5sJgLFR$yGw" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2SqB2G" id="6H8XEgNjR4t" role="2SqHTX">
+            <property role="TrG5h" value="close" />
           </node>
         </node>
       </node>
