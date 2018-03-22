@@ -965,12 +965,18 @@
           <node concept="11L4FC" id="2uT2PLmVWLw" role="3F10Kt">
             <property role="VOm3f" value="true" />
           </node>
+          <node concept="2SqB2G" id="6H8XEgNm14b" role="2SqHTX">
+            <property role="TrG5h" value="close" />
+          </node>
         </node>
         <node concept="3F0ifn" id="2uT2PLmVWII" role="drBA7">
           <property role="3F0ifm" value="(" />
           <ref role="1k5W1q" to="r4b4:2CEi94dh36z" resolve="Parens" />
           <node concept="11LMrY" id="2uT2PLmVWO7" role="3F10Kt">
             <property role="VOm3f" value="true" />
+          </node>
+          <node concept="2SqB2G" id="6H8XEgNm0Zk" role="2SqHTX">
+            <property role="TrG5h" value="open" />
           </node>
         </node>
         <node concept="3F1sOY" id="2uT2PLmVWIK" role="drBAU">
@@ -1551,6 +1557,9 @@
             <ref role="1k5W1q" to="r4b4:y826GHffn9" resolve="Op" />
             <node concept="11L4FC" id="3O7ZvCZJPqS" role="3F10Kt">
               <property role="VOm3f" value="true" />
+            </node>
+            <node concept="2SqB2G" id="6H8XEgNnWtr" role="2SqHTX">
+              <property role="TrG5h" value="operator" />
             </node>
           </node>
         </node>
